@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-html, body {
-  height: 100%;
-}
+/* General body setting */
 
 body {
     font-family: Roboto, sans-serif;
@@ -14,22 +12,32 @@ body {
     flex-direction: column;
 }
 
+/* Header setting */
+
 header {
-    background-color:#1f2937 ;
+    background-color:#1f2937;
     color: #eeeeee;
     display: flex;
     flex-direction: column;
+    padding: 8px 150px 40px 150px;
+    flex-wrap: wrap;
+    gap: 40px;
 }
+
+/* nav section */
 
 nav {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 ul {
     list-style-type: none;
     display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+    gap: 10px;
 }
 
 .logo {
@@ -42,3 +50,32 @@ a {
     color: #eeeeee;
 }
 
+/* modal section */
+
+img {
+    height: 300px;
+    width: 700px;
+}
+
+.modal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:40px;
+}
+
+.title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+button {
+    background-color: #3882f6;
+    color: #eeeeee;
+    padding: 16px 32px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+}
