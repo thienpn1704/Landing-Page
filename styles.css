@@ -52,7 +52,7 @@ a {
 
 /* modal section */
 
-img {
+.right-side {
     height: 300px;
     width: 700px;
 }
@@ -78,4 +78,49 @@ button {
     text-align: center;
     text-decoration: none;
     border-radius: 8px;
+}
+
+/* introduction */
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    margin:30px 0;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+}
+
+div img {
+    height: 200px;
+    width: 200px;
+}
+
+/* content */
+
+.content {
+    background-color: #e5e7eb;
+    padding: 60px 90px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.signature {
+    display: flex;
+    justify-content: right;
+    font-weight: bold;
 }
