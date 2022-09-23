@@ -19,7 +19,7 @@ header {
     color: #eeeeee;
     display: flex;
     flex-direction: column;
-    padding: 8px 150px 40px 150px;
+    padding: 12px 300px 40px 300px;
     flex-wrap: wrap;
     gap: 40px;
 }
@@ -99,6 +99,7 @@ button {
 .container {
     display: flex;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 div img {
