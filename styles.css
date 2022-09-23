@@ -73,7 +73,7 @@ a {
 button {
     background-color: #3882f6;
     color: #eeeeee;
-    padding: 16px 32px;
+    padding: 10px 30px;
     border: none;
     text-align: center;
     text-decoration: none;
@@ -124,4 +124,46 @@ div img {
     display: flex;
     justify-content: right;
     font-weight: bold;
+}
+
+/* container */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    color: #eeeeee;
+    background-color: #3882f6;
+    padding: 20px 40px;
+    border-radius: 6px;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    max-width:fit-content;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    gap: 20px;
+}
+
+.right {
+    display:flex;
+    align-items: center;
+}
+
+.call-to-action button {
+    border: 1px solid #eeeeee;
+    font-weight: bold;
+}
+
+/* footer */
+
+footer {
+    background-color:#1f2937;
+    color: #eeeeee;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
